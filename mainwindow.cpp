@@ -5,6 +5,7 @@
 #include "QDir"
 #include "QTextStream"
 #include "global.h"
+#include "xuanzeduihuakuang.h"
 
 QString rootDir = "D:/mydata", userdataDir = "D:/mydata/userdata";
 
@@ -64,9 +65,10 @@ void MainWindow::on_loginBut_clicked()
         QTextStream in(&file);
         QString line = in.readLine();      //整行读取
         if (line == password) {
-            GirlWall *girlWall = new GirlWall;
-            girlWall->setGeometry(this->geometry());
-            girlWall->show();
+//            GirlWall *girlWall = new GirlWall;
+            XuanZeDuiHuaKuang *XuanZe = new XuanZeDuiHuaKuang;
+            XuanZe->setGeometry(this->geometry());
+            XuanZe->show();
             this->close();
         } else {
             QMessageBox::warning(this, "Error", "账号或密码错误！请重试", ""

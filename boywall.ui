@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoyWall</class>
+ <widget class="QMainWindow" name="BoyWall">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1267</width>
+    <height>923</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+background-image: url(:/img/1222222.jpg);
+font-size:20px;
+font-family:Century Gothic;
+}
+QFrame{
+background:rgba(255,255,255,0.8);
+border-radius:15px;
+}
+
+#Widget{
+
+}
+
+QToolButton{
+background:red;
+border-radius:60px;
+}
+QLabel{
+font-size:27px;
+color:black;
+background:transparent;
+}
+QPushButton{
+font-size:18px;
+background:white;
+border-radius:15px;
+}
+QPushButton:hover{
+
+border-radius:15px;
+background:#c8adc4;
+}
+QLineEdit{
+background:transparent;
+border:none;
+color:#717072;
+border-bottom:1px solid #717072;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>180</y>
+      <width>1220</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="labelM">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>50</y>
+       <width>140</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>男生墙</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="shiwuM">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>150</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>失物招领</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="biaoBaiM">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>270</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>表白墙</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="yundongM">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>390</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>运动专栏</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dianyingM">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>510</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>电影推荐</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dianziM">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>630</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>电子产品</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

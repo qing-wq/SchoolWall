@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XuanZeDuiHuaKuang</class>
+ <widget class="QMainWindow" name="XuanZeDuiHuaKuang">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>9000</width>
+    <height>6000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+background:url(:/img/GAB.jpg) no-repeat;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-size:20px;
+font-family:Century Gothic;
+}
+QFrame{
+background:rgba(255,255,255,0.8);
+border-radius:15px;
+}
+
+#Widget{
+
+}
+
+QToolButton{
+background:red;
+border-radius:60px;
+}
+QLabel{
+font-size:27px;
+color:black;
+background:transparent;
+}
+QPushButton{
+font-size:18px;
+background:white;
+border-radius:15px;
+}
+QPushButton:hover{
+
+border-radius:15px;
+background:#c8adc4;
+}
+QLineEdit{
+background:transparent;
+border:none;
+color:#717072;
+border-bottom:1px solid #717072;
+}
+QTextBrowser{
+	font-size:15px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>711</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>140</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>选择您的性别</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Girl">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>280</y>
+       <width>130</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>我是女生</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boy">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>280</y>
+       <width>130</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>我是男生</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

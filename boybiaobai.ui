@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoyBiaoBai</class>
+ <widget class="QMainWindow" name="BoyBiaoBai">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1817</width>
+    <height>1093</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+background-image: url(:/img/1777777.jpg);
+font-size:20px;
+font-family:Century Gothic;
+}
+QFrame{
+background:rgba(255,255,255,0.8);
+border-radius:15px;
+}
+
+#Widget{
+
+}
+
+QToolButton{
+background:red;
+border-radius:60px;
+}
+QLabel{
+font-size:27px;
+color:black;
+background:transparent;
+}
+QPushButton{
+font-size:18px;
+background:white;
+border-radius:15px;
+}
+QPushButton:hover{
+
+border-radius:15px;
+background:#c8adc4;
+}
+QLineEdit{
+background:transparent;
+border:none;
+color:#717072;
+border-bottom:1px solid #717072;
+}
+QTextBrowser{
+	font-size:15px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>110</y>
+      <width>1300</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>120</y>
+       <width>1040</width>
+       <height>530</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>690</y>
+       <width>760</width>
+       <height>61</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>690</y>
+       <width>100</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>790</y>
+       <width>140</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>790</y>
+       <width>140</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除内容</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>50</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>表白墙</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

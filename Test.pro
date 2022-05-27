@@ -10,6 +10,12 @@ CONFIG += c++11
 
 SOURCES += \
     biaobai.cpp \
+    boybiaobai.cpp \
+    boydianying.cpp \
+    boydianzi.cpp \
+    boyshiwu.cpp \
+    boywall.cpp \
+    boyyundong.cpp \
     girlwall.cpp \
     global.cpp \
     haowu.cpp \
@@ -18,10 +24,17 @@ SOURCES += \
     meishi.cpp \
     meizhuangwall.cpp \
     mycomment.cpp \
-    shiwu.cpp
+    shiwu.cpp \
+    xuanzeduihuakuang.cpp
 
 HEADERS += \
     biaobai.h \
+    boybiaobai.h \
+    boydianying.h \
+    boydianzi.h \
+    boyshiwu.h \
+    boywall.h \
+    boyyundong.h \
     girlwall.h \
     global.h \
     haowu.h \
@@ -29,17 +42,25 @@ HEADERS += \
     meishi.h \
     meizhuangwall.h \
     mycomment.h \
-    shiwu.h
+    shiwu.h \
+    xuanzeduihuakuang.h
 
 FORMS += \
     biaobai.ui \
+    boybiaobai.ui \
+    boydianying.ui \
+    boydianzi.ui \
+    boyshiwu.ui \
+    boywall.ui \
+    boyyundong.ui \
     girlwall.ui \
     haowu.ui \
     mainwindow.ui \
     meishi.ui \
     meizhuangwall.ui \
     mycomment.ui \
-    shiwu.ui
+    shiwu.ui \
+    xuanzeduihuakuang.ui
 
 
 CONFIG += lrelease

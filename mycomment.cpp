@@ -4,6 +4,7 @@
 #include "mainwindow.h"
 #include "girlwall.h"
 #include <QDir>
+#include <QString>
 #include "global.h"
 
 QString nPath;
@@ -13,7 +14,7 @@ MyComment::MyComment(class QWidget *parent) :
     ui(new Ui::MyComment)
 {
     ui->setupUi(this);
-    nPath = "D:/mydata/userdata/" + userName;
+    nPath = "D:/mydata/" + wall;
     QDir dir(nPath);
     if (!dir.exists()) {
         QDir().mkdir(nPath);
@@ -26,9 +27,10 @@ MyComment::MyComment(class QWidget *parent) :
     QTextStream in(&file);
     while(!in.atEnd()){
         QString line = in.readLine();
-        qDebug() << line << endl;
-        QStandardItem *item = new QStandardItem(line);
-        model->appendRow(item);
+        if(line.startsWith(userName + ":")){    //  判断评论是否属于当前用户
+            QStandardItem *item = new QStandardItem(line);
+            model->appendRow(item);
+        }
     }
     ui->listView->setModel(model);
     // 右击绑定事件
@@ -58,9 +60,29 @@ void MyComment::show_listView(const QPoint& pos){
 }
 
 void MyComment::onDelete(){
-    qDebug() << "当前索引：" << ui->listView->currentIndex();
     QStandardItemModel *model = dynamic_cast<QStandardItemModel*>(ui->listView->model());
-    model->removeRow(ui->listView->currentIndex().row());
+    QString str = model->itemData(ui->listView->currentIndex()).values()[0].toString();   // 获取当前被点击的行的内容
+    QString fileName = nPath+ "/" + wallName + ".txt";    // 在文件中将这行删除
+    QFile file(fileName);
+    file.open(QIODevice::ReadOnly | QIODevice::Text);    //  注意此处为ReadOnly只读模式
+    QTextStream in(&file);
+    QString newCtnt = "";
+    while(!in.atEnd()){
+        QString line = in.readLine();
+        qDebug() << "line:" <<  line << endl;
+        if(line == str){    //  判断评论是否属于当前用户
+            continue;
+        }
+        newCtnt += line + "\n";
+    }
+    file.close();
+    file.open(QIODevice::WriteOnly | QIODevice::Text);    // 以WriteOnly模式打开文件，会清空文件中原来的内容
+    QTextStream out(&file);
+    out.setCodec("UTF-8");
+    qDebug() << newCtnt << endl;
+    out << "newCtnt:" << newCtnt;
+    file.close();
+    model->removeRow(ui->listView->currentIndex().row());    // 移除用户想删除的那一行
 }
 
 

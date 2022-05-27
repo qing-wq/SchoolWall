@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>2020</width>
+    <height>990</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,6 +34,7 @@ border-radius:60px;
 }
 QLabel{
 color:black;
+font-size:28px;
 background:transparent;
 }
 QPushButton{
@@ -57,10 +58,10 @@ border-bottom:1px solid #717072;
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>140</y>
-      <width>461</width>
-      <height>341</height>
+      <x>240</x>
+      <y>270</y>
+      <width>1281</width>
+      <height>671</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -72,9 +73,9 @@ border-bottom:1px solid #717072;
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>160</x>
-       <y>40</y>
-       <width>131</width>
+       <x>590</x>
+       <y>150</y>
+       <width>171</width>
        <height>41</height>
       </rect>
      </property>
@@ -93,8 +94,8 @@ border-bottom:1px solid #717072;
     <widget class="QPushButton" name="loginBut">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>260</y>
+       <x>450</x>
+       <y>470</y>
        <width>151</width>
        <height>41</height>
       </rect>
@@ -205,9 +206,9 @@ border-bottom:1px solid #717072;
     <widget class="QLineEdit" name="userNameEdit">
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>120</y>
-       <width>361</width>
+       <x>460</x>
+       <y>270</y>
+       <width>401</width>
        <height>41</height>
       </rect>
      </property>
@@ -226,9 +227,9 @@ border-bottom:1px solid #717072;
     <widget class="QLineEdit" name="passwordEdit">
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>190</y>
-       <width>361</width>
+       <x>460</x>
+       <y>370</y>
+       <width>401</width>
        <height>41</height>
       </rect>
      </property>
@@ -253,8 +254,8 @@ border-bottom:1px solid #717072;
     <widget class="QPushButton" name="reisterBut">
      <property name="geometry">
       <rect>
-       <x>260</x>
-       <y>260</y>
+       <x>730</x>
+       <y>480</y>
        <width>151</width>
        <height>41</height>
       </rect>

@@ -2,3 +2,4 @@
 
 QString wallName = "";
 QString userName = "";
+QString wall = "";

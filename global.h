@@ -2,7 +2,8 @@
 #define GLOBAL_H
 #include "QString"
 
-extern QString wallName;  // 声明全局变量，放在类定义之外
+extern QString wallName;
 extern QString userName;
+extern QString wall;
 
 #endif // GLOBAL_H
