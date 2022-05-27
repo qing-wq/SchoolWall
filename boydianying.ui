@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>963</width>
-    <height>724</height>
+    <width>1852</width>
+    <height>1161</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -107,15 +107,15 @@ QTextBrowser{
       <rect>
        <x>170</x>
        <y>690</y>
-       <width>760</width>
+       <width>831</width>
        <height>61</height>
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="send">
      <property name="geometry">
       <rect>
-       <x>1010</x>
+       <x>1050</x>
        <y>690</y>
        <width>100</width>
        <height>61</height>
@@ -144,7 +144,7 @@ QTextBrowser{
       <string>返回</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="delBtn">
      <property name="geometry">
       <rect>
        <x>800</x>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1884</width>
-    <height>1233</height>
+    <width>1891</width>
+    <height>1159</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -112,7 +112,7 @@ QTextBrowser{
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="send">
      <property name="geometry">
       <rect>
        <x>1010</x>
@@ -125,7 +125,7 @@ QTextBrowser{
       <string>发送</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="back">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -138,7 +138,7 @@ QTextBrowser{
       <string>返回</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="delBtn">
      <property name="geometry">
       <rect>
        <x>800</x>
@@ -148,7 +148,7 @@ QTextBrowser{
       </rect>
      </property>
      <property name="text">
-      <string>修改内容</string>
+      <string>我的评论</string>
      </property>
     </widget>
    </widget>

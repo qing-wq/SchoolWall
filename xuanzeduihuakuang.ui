@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>900</width>
-    <height>668</height>
+    <width>1573</width>
+    <height>980</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -88,8 +88,8 @@ QTextBrowser{
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>90</y>
+      <x>570</x>
+      <y>150</y>
       <width>711</width>
       <height>511</height>
      </rect>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1574</width>
+    <height>919</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-background-image:url(:/img/8574639.jpg);
+background-image:url(:/img/211111.jpg);
 font-size:20px;
 font-family:Century Gothic;
 }
@@ -61,10 +61,10 @@ QTextBrowser{
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>70</y>
-      <width>671</width>
-      <height>451</height>
+      <x>220</x>
+      <y>170</y>
+      <width>1161</width>
+      <height>681</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -76,10 +76,10 @@ QTextBrowser{
     <widget class="QListView" name="listView">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>60</x>
        <y>80</y>
-       <width>561</width>
-       <height>301</height>
+       <width>1041</width>
+       <height>501</height>
       </rect>
      </property>
      <property name="contextMenuPolicy">
@@ -89,7 +89,7 @@ QTextBrowser{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>480</x>
        <y>30</y>
        <width>181</width>
        <height>31</height>
@@ -111,8 +111,8 @@ border:soild 10px
     <widget class="QPushButton" name="back">
      <property name="geometry">
       <rect>
-       <x>280</x>
-       <y>400</y>
+       <x>530</x>
+       <y>620</y>
        <width>91</width>
        <height>31</height>
       </rect>

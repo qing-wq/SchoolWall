@@ -16,7 +16,11 @@ public:
     ~BoyYunDong();
 
 private slots:
-    void on_pushButton_2_clicked();
+    void on_back_clicked();
+
+    void on_send_clicked();
+
+    void on_delBtn_clicked();
 
 private:
     Ui::BoyYunDong *ui;

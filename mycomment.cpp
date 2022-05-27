@@ -6,6 +6,11 @@
 #include <QDir>
 #include <QString>
 #include "biaobai.h"
+#include "boybiaobai.h"
+#include "boydianying.h"
+#include "boydianzi.h"
+#include "boyshiwu.h"
+#include "boyyundong.h"
 #include "global.h"
 #include "haowu.h"
 #include "meishi.h"
@@ -88,8 +93,6 @@ void MyComment::onDelete(){
     model->removeRow(ui->listView->currentIndex().row());    // 移除用户想删除的那一行
 }
 
-
-
 void MyComment::on_back_clicked()
 {
     if(wallName == "meizhuang"){
@@ -118,6 +121,36 @@ void MyComment::on_back_clicked()
     }
     if(wallName == "haowu"){
         HaoWu *girlWall = new HaoWu;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "boybiaobai"){
+        BoyBiaoBai *girlWall = new BoyBiaoBai;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "boyshiwu"){
+        BoyShiWu *girlWall = new BoyShiWu;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "boydianying"){
+        BoydianYing *girlWall = new BoydianYing;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "boyyundong"){
+        BoyYunDong *girlWall = new BoyYunDong;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "boydianzi"){
+        BoyDianZi *girlWall = new BoyDianZi;
         girlWall->setGeometry(this->geometry());
         girlWall->show();
         this->close();

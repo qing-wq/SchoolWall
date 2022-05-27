@@ -18,6 +18,10 @@ public:
 private slots:
     void on_back_clicked();
 
+    void on_send_clicked();
+
+    void on_delBtn_clicked();
+
 private:
     Ui::BoydianYing *ui;
 };

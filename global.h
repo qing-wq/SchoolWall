@@ -5,5 +5,7 @@
 extern QString wallName;
 extern QString userName;
 extern QString wall;
+extern QString Path;
+extern QString PathSecond;
 
 #endif // GLOBAL_H

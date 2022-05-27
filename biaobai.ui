@@ -21,7 +21,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-background-image:url(:/img/1777777.jpg);
+background-image:url(:/img/288888.jpg);
 font-size:20px;
 }
 QFrame{

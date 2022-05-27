@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>986</width>
-    <height>730</height>
+    <width>1893</width>
+    <height>1108</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-background-image: url(:/img/100000.jpg);
+background-image: url(:/img/255555.jpg);
 font-size:20px;
 font-family:Century Gothic;
 }
@@ -76,8 +76,8 @@ QTextBrowser{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>640</x>
-       <y>50</y>
+       <x>600</x>
+       <y>40</y>
        <width>121</width>
        <height>51</height>
       </rect>
@@ -106,7 +106,7 @@ QTextBrowser{
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="sent">
+    <widget class="QPushButton" name="send">
      <property name="geometry">
       <rect>
        <x>1010</x>
@@ -132,7 +132,7 @@ QTextBrowser{
       <string>返回</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="change">
+    <widget class="QPushButton" name="delBtn">
      <property name="geometry">
       <rect>
        <x>800</x>
@@ -142,7 +142,7 @@ QTextBrowser{
       </rect>
      </property>
      <property name="text">
-      <string>修改内容</string>
+      <string>我的评论</string>
      </property>
     </widget>
    </widget>

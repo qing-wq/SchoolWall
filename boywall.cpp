@@ -5,6 +5,7 @@
 #include "boyyundong.h"
 #include "boydianying.h"
 #include "boydianzi.h"
+#include "global.h"
 
 BoyWall::BoyWall(QWidget *parent) :
     QMainWindow(parent),
@@ -22,6 +23,7 @@ BoyWall::~BoyWall()
 //男——失物招领点击
 void BoyWall::on_shiwuM_clicked()
 {
+    wallName = "boyshiwu";
     BoyShiWu *boyShiWu = new BoyShiWu;
     boyShiWu->setGeometry(this->geometry());
     boyShiWu->show();
@@ -30,6 +32,7 @@ void BoyWall::on_shiwuM_clicked()
 //男——表白墙点击
 void BoyWall::on_biaoBaiM_clicked()
 {
+    wallName = "boybiaobai";
     BoyBiaoBai *boyBiaoBai = new BoyBiaoBai;
     boyBiaoBai->setGeometry(this->geometry());
     boyBiaoBai->show();
@@ -38,6 +41,7 @@ void BoyWall::on_biaoBaiM_clicked()
 //男——运动专栏点击
 void BoyWall::on_yundongM_clicked()
 {
+    wallName = "boyyundong";
     BoyYunDong *boyYunDong = new BoyYunDong;
     boyYunDong->setGeometry(this->geometry());
     boyYunDong->show();
@@ -46,6 +50,7 @@ void BoyWall::on_yundongM_clicked()
 //男——电影推荐点击
 void BoyWall::on_dianyingM_clicked()
 {
+    wallName = "boydianying";
     BoydianYing *boyDianYing = new BoydianYing;
     boyDianYing->setGeometry(this->geometry());
     boyDianYing->show();
@@ -54,6 +59,7 @@ void BoyWall::on_dianyingM_clicked()
 //男——电子产品点击
 void BoyWall::on_dianziM_clicked()
 {
+    wallName = "boydianzi";
     BoyDianZi *boyDianZi = new BoyDianZi;
     boyDianZi->setGeometry(this->geometry());
     boyDianZi->show();
