@@ -15,8 +15,8 @@ MeiShi::~MeiShi()
 }
 
 void MeiShi::on_back_clicked(){
-    GirlWall *girlWall = new GirlWall;
-    girlWall->setGeometry(this->geometry());
-    girlWall->show();
-    this->close();
+        GirlWall *girlWall = new GirlWall;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
 }

@@ -33,7 +33,7 @@ background:red;
 border-radius:60px;
 }
 QLabel{
-font-size:27px;
+font-size:23px;
 color:black;
 background:rgb(255,255,255,0.8);
 
@@ -77,9 +77,9 @@ QTextBrowser{
      <property name="geometry">
       <rect>
        <x>50</x>
-       <y>110</y>
+       <y>80</y>
        <width>561</width>
-       <height>271</height>
+       <height>301</height>
       </rect>
      </property>
      <property name="contextMenuPolicy">
@@ -92,7 +92,7 @@ QTextBrowser{
        <x>240</x>
        <y>30</y>
        <width>181</width>
-       <height>41</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -106,6 +106,19 @@ border:soild 10px
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>400</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
      </property>
     </widget>
    </widget>

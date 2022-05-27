@@ -5,7 +5,12 @@
 #include "girlwall.h"
 #include <QDir>
 #include <QString>
+#include "biaobai.h"
 #include "global.h"
+#include "haowu.h"
+#include "meishi.h"
+#include "meizhuangwall.h"
+#include "shiwu.h"
 
 QString nPath;
 
@@ -66,10 +71,9 @@ void MyComment::onDelete(){
     QFile file(fileName);
     file.open(QIODevice::ReadOnly | QIODevice::Text);    //  注意此处为ReadOnly只读模式
     QTextStream in(&file);
-    QString newCtnt = "";
+    QString newCtnt = "";     // 文件新内容
     while(!in.atEnd()){
         QString line = in.readLine();
-        qDebug() << "line:" <<  line << endl;
         if(line == str){    //  判断评论是否属于当前用户
             continue;
         }
@@ -78,11 +82,45 @@ void MyComment::onDelete(){
     file.close();
     file.open(QIODevice::WriteOnly | QIODevice::Text);    // 以WriteOnly模式打开文件，会清空文件中原来的内容
     QTextStream out(&file);
-    out.setCodec("UTF-8");
-    qDebug() << newCtnt << endl;
-    out << "newCtnt:" << newCtnt;
+//    out.setCodec("UTF-8");
+    out << newCtnt;
     file.close();
     model->removeRow(ui->listView->currentIndex().row());    // 移除用户想删除的那一行
 }
 
+
+
+void MyComment::on_back_clicked()
+{
+    if(wallName == "meizhuang"){
+        MeiZhuangWall *girlWall = new MeiZhuangWall;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "biaobai"){
+        BiaoBai *girlWall = new BiaoBai;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "meishi"){
+        MeiShi *girlWall = new MeiShi;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "shiwu"){
+        ShiWU *girlWall = new ShiWU;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+    if(wallName == "haowu"){
+        HaoWu *girlWall = new HaoWu;
+        girlWall->setGeometry(this->geometry());
+        girlWall->show();
+        this->close();
+    }
+}
 

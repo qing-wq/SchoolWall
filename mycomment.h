@@ -24,6 +24,8 @@ private slots:
     void show_listView(const QPoint &pos);
     void onDelete();
 
+    void on_back_clicked();
+
 private:
     Ui::MyComment *ui;
 };

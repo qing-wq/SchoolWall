@@ -96,7 +96,7 @@ border-bottom:1px solid #717072;
       <string>美妆专栏墙</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="haowu">
+    <widget class="QPushButton" name="shiwu">
      <property name="geometry">
       <rect>
        <x>280</x>
@@ -135,7 +135,7 @@ border-bottom:1px solid #717072;
       <string>美食分享墙</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="shiwu">
+    <widget class="QPushButton" name="haowu">
      <property name="geometry">
       <rect>
        <x>280</x>
