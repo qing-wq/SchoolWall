@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1573</width>
-    <height>980</height>
+    <width>900</width>
+    <height>612</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -88,10 +88,10 @@ QTextBrowser{
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>150</y>
-      <width>711</width>
-      <height>511</height>
+      <x>50</x>
+      <y>60</y>
+      <width>791</width>
+      <height>451</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -103,8 +103,8 @@ QTextBrowser{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>260</x>
-       <y>140</y>
+       <x>310</x>
+       <y>130</y>
        <width>221</width>
        <height>71</height>
       </rect>
@@ -124,8 +124,8 @@ QTextBrowser{
       <rect>
        <x>160</x>
        <y>280</y>
-       <width>130</width>
-       <height>60</height>
+       <width>151</width>
+       <height>61</height>
       </rect>
      </property>
      <property name="text">
@@ -135,14 +135,29 @@ QTextBrowser{
     <widget class="QPushButton" name="Boy">
      <property name="geometry">
       <rect>
-       <x>430</x>
+       <x>480</x>
        <y>280</y>
-       <width>130</width>
-       <height>60</height>
+       <width>141</width>
+       <height>61</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>-1</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>我是男生</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>300</number>
      </property>
     </widget>
    </widget>

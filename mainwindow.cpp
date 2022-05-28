@@ -20,6 +20,11 @@ MainWindow::MainWindow(QWidget *parent)
         QDir().mkdir(rootDir);
         QDir().mkdir(userdataDir);
     }
+
+    QPalette PAllbackground = this->palette();
+    QPixmap ImgAllbackground(":/img/8583171.jpg");
+    PAllbackground.setBrush(QPalette::Window, QBrush(ImgAllbackground));
+    this->setPalette(PAllbackground);
 }
 
 MainWindow::~MainWindow()
@@ -65,14 +70,14 @@ void MainWindow::on_loginBut_clicked()
         QTextStream in(&file);
         QString line = in.readLine();      //整行读取
         if (line == password) {
-//            GirlWall *girlWall = new GirlWall;
+            //            GirlWall *girlWall = new GirlWall;
             XuanZeDuiHuaKuang *XuanZe = new XuanZeDuiHuaKuang;
             XuanZe->setGeometry(this->geometry());
             XuanZe->show();
             this->close();
         } else {
             QMessageBox::warning(this, "Error", "账号或密码错误！请重试", ""
-                                                                "确定");
+                                                               "确定");
         }
     }
 }

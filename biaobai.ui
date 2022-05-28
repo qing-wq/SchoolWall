@@ -6,13 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>837</width>
-    <height>600</height>
+    <width>895</width>
+    <height>657</height>
    </rect>
   </property>
   <property name="font">
    <font>
-    <family>宋体</family>
     <pointsize>-1</pointsize>
    </font>
   </property>
@@ -21,7 +20,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-background-image:url(:/img/288888.jpg);
+background-image: url(:/img/288888.jpg);
 font-size:20px;
 }
 QFrame{
@@ -63,15 +62,14 @@ border-bottom:1px solid #717072;
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>60</y>
-      <width>701</width>
-      <height>471</height>
+      <x>70</x>
+      <y>40</y>
+      <width>781</width>
+      <height>581</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>宋体</family>
       <pointsize>-1</pointsize>
      </font>
     </property>
@@ -84,15 +82,14 @@ border-bottom:1px solid #717072;
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>300</x>
-       <y>50</y>
-       <width>111</width>
+       <x>360</x>
+       <y>30</y>
+       <width>121</width>
        <height>51</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>宋体</family>
        <pointsize>-1</pointsize>
       </font>
      </property>
@@ -103,14 +100,60 @@ border-bottom:1px solid #717072;
     <widget class="QPushButton" name="back">
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>390</y>
-       <width>111</width>
+       <x>180</x>
+       <y>490</y>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
      <property name="text">
       <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Delete">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>490</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除评论</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>621</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>430</y>
+       <width>461</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>440</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送</string>
      </property>
     </widget>
    </widget>

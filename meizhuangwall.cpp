@@ -29,6 +29,10 @@ MeiZhuangWall::MeiZhuangWall(QWidget *parent) :
         QMessageBox::warning(this,tr("Error"),tr("read file error:").arg(file.errorString()));
     }
     file.close();
+    QPalette PAllbackground = this->palette();
+    QPixmap ImgAllbackground(":/img/2333333.jpg");
+    PAllbackground.setBrush(QPalette::Window, QBrush(ImgAllbackground));
+    this->setPalette(PAllbackground);
 }
 
 MeiZhuangWall::~MeiZhuangWall()

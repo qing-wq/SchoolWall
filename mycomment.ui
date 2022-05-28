@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1574</width>
-    <height>919</height>
+    <width>879</width>
+    <height>650</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,10 +61,10 @@ QTextBrowser{
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>170</y>
-      <width>1161</width>
-      <height>681</height>
+      <x>30</x>
+      <y>50</y>
+      <width>761</width>
+      <height>511</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -76,10 +76,10 @@ QTextBrowser{
     <widget class="QListView" name="listView">
      <property name="geometry">
       <rect>
-       <x>60</x>
-       <y>80</y>
-       <width>1041</width>
-       <height>501</height>
+       <x>100</x>
+       <y>100</y>
+       <width>561</width>
+       <height>301</height>
       </rect>
      </property>
      <property name="contextMenuPolicy">
@@ -89,8 +89,8 @@ QTextBrowser{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>480</x>
-       <y>30</y>
+       <x>280</x>
+       <y>40</y>
        <width>181</width>
        <height>31</height>
       </rect>
@@ -111,8 +111,8 @@ border:soild 10px
     <widget class="QPushButton" name="back">
      <property name="geometry">
       <rect>
-       <x>530</x>
-       <y>620</y>
+       <x>320</x>
+       <y>440</y>
        <width>91</width>
        <height>31</height>
       </rect>

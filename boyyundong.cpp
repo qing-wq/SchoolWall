@@ -14,7 +14,7 @@ BoyYunDong::BoyYunDong(QWidget *parent) :
     ui(new Ui::BoyYunDong)
 {
     ui->setupUi(this);
-    QString nowPath = PathSecond + "/boydianzi.txt";
+    QString nowPath = PathSecond + "/boyyundong.txt";
     QDir nowDir(PathSecond);
     if(!nowDir.exists()){
         QDir().mkdir(PathSecond);

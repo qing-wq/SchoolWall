@@ -25,6 +25,7 @@ MyComment::MyComment(class QWidget *parent) :
 {
     ui->setupUi(this);
     nPath = "D:/mydata/" + wall;
+
     QDir dir(nPath);
     if (!dir.exists()) {
         QDir().mkdir(nPath);

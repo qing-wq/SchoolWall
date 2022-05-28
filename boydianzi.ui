@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1920</width>
-    <height>1098</height>
+    <width>879</width>
+    <height>668</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,10 +61,10 @@ QTextBrowser{
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>110</y>
-      <width>1300</width>
-      <height>900</height>
+      <x>90</x>
+      <y>50</y>
+      <width>721</width>
+      <height>571</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -76,8 +76,8 @@ QTextBrowser{
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>540</x>
-       <y>30</y>
+       <x>300</x>
+       <y>20</y>
        <width>121</width>
        <height>51</height>
       </rect>
@@ -97,28 +97,28 @@ QTextBrowser{
       <rect>
        <x>70</x>
        <y>90</y>
-       <width>1040</width>
-       <height>530</height>
+       <width>571</width>
+       <height>321</height>
       </rect>
      </property>
     </widget>
     <widget class="QTextEdit" name="textEdit">
      <property name="geometry">
       <rect>
-       <x>170</x>
-       <y>690</y>
-       <width>760</width>
-       <height>61</height>
+       <x>90</x>
+       <y>450</y>
+       <width>431</width>
+       <height>41</height>
       </rect>
      </property>
     </widget>
     <widget class="QPushButton" name="send">
      <property name="geometry">
       <rect>
-       <x>1010</x>
-       <y>690</y>
-       <width>100</width>
-       <height>61</height>
+       <x>550</x>
+       <y>460</y>
+       <width>81</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -128,10 +128,10 @@ QTextBrowser{
     <widget class="QPushButton" name="back">
      <property name="geometry">
       <rect>
-       <x>310</x>
-       <y>790</y>
-       <width>140</width>
-       <height>61</height>
+       <x>160</x>
+       <y>520</y>
+       <width>111</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -141,10 +141,10 @@ QTextBrowser{
     <widget class="QPushButton" name="delBtn">
      <property name="geometry">
       <rect>
-       <x>800</x>
-       <y>790</y>
-       <width>140</width>
-       <height>61</height>
+       <x>410</x>
+       <y>520</y>
+       <width>121</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">

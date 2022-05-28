@@ -18,6 +18,10 @@ public:
 private slots:
     void on_back_clicked();
 
+    void on_sent_clicked();
+
+    void on_Delete_clicked();
+
 private:
     Ui::MeiShi *ui;
 };
