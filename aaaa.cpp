@@ -6,6 +6,9 @@ aaaa::aaaa(QWidget *parent) :
     ui(new Ui::aaaa)
 {
     ui->setupUi(this);
+
+
+    // aaaa
 }
 
 aaaa::~aaaa()
